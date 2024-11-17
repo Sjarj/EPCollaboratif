@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B4D41492CEA2FD100D86803 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4D41482CEA2FD100D86803 /* HomeViewModel.swift */; };
+		2B4D414E2CEA391F00D86803 /* AddTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4D414D2CEA391F00D86803 /* AddTaskViewModel.swift */; };
 		2F1242F32BDFA3CB0091FDA1 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1242F22BDFA3CB0091FDA1 /* HomeScreenView.swift */; };
 		2F1242FB2BDFC2E70091FDA1 /* ProjectDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1242FA2BDFC2E70091FDA1 /* ProjectDetailsView.swift */; };
 		2F1242FD2BDFC42C0091FDA1 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1242FC2BDFC42C0091FDA1 /* Project.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B4D41482CEA2FD100D86803 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		2B4D414D2CEA391F00D86803 /* AddTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewModel.swift; sourceTree = "<group>"; };
 		2F1242F22BDFA3CB0091FDA1 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		2F1242FA2BDFC2E70091FDA1 /* ProjectDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailsView.swift; sourceTree = "<group>"; };
 		2F1242FC2BDFC42C0091FDA1 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
@@ -67,6 +71,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B4D414A2CEA304E00D86803 /* Projet */ = {
+			isa = PBXGroup;
+			children = (
+				2F1242FA2BDFC2E70091FDA1 /* ProjectDetailsView.swift */,
+				2F1243002BDFC5BC0091FDA1 /* AddProjectView.swift */,
+			);
+			path = Projet;
+			sourceTree = "<group>";
+		};
+		2B4D414B2CEA305A00D86803 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2B4D41482CEA2FD100D86803 /* HomeViewModel.swift */,
+				2F1242F22BDFA3CB0091FDA1 /* HomeScreenView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2B4D414C2CEA30E300D86803 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FEDD2222BE4D939005B7D5F /* ProjectStore.swift */,
+				2F1242FC2BDFC42C0091FDA1 /* Project.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2FFEDA7D2BDF96C200319E4A = {
 			isa = PBXGroup;
 			children = (
@@ -88,17 +119,16 @@
 		2FFEDA882BDF96C200319E4A /* EPCollaboratif */ = {
 			isa = PBXGroup;
 			children = (
+				2B4D414C2CEA30E300D86803 /* Model */,
+				2B4D414B2CEA305A00D86803 /* Home */,
+				2B4D414A2CEA304E00D86803 /* Projet */,
 				2F6FF4A12BE0D3560059A805 /* MockData.swift */,
 				2FFEDA892BDF96C200319E4A /* EPCollaboratifApp.swift */,
-				2F1242F22BDFA3CB0091FDA1 /* HomeScreenView.swift */,
-				2F1243002BDFC5BC0091FDA1 /* AddProjectView.swift */,
-				2F1242FA2BDFC2E70091FDA1 /* ProjectDetailsView.swift */,
 				2F6FF49F2BE0CFC40059A805 /* AddTaskView.swift */,
-				2FEDD2222BE4D939005B7D5F /* ProjectStore.swift */,
-				2F1242FC2BDFC42C0091FDA1 /* Project.swift */,
 				2FEDD2202BE4D8D2005B7D5F /* Task.swift */,
 				2FFEDA8D2BDF96C300319E4A /* Assets.xcassets */,
 				2FFEDA8F2BDF96C300319E4A /* Preview Content */,
+				2B4D414D2CEA391F00D86803 /* AddTaskViewModel.swift */,
 			);
 			path = EPCollaboratif;
 			sourceTree = "<group>";
@@ -223,9 +253,11 @@
 				2FEDD2212BE4D8D2005B7D5F /* Task.swift in Sources */,
 				2F1242F32BDFA3CB0091FDA1 /* HomeScreenView.swift in Sources */,
 				2F6FF4A02BE0CFC40059A805 /* AddTaskView.swift in Sources */,
+				2B4D41492CEA2FD100D86803 /* HomeViewModel.swift in Sources */,
 				2F1243012BDFC5BC0091FDA1 /* AddProjectView.swift in Sources */,
 				2FFEDA8A2BDF96C200319E4A /* EPCollaboratifApp.swift in Sources */,
 				2F1242FB2BDFC2E70091FDA1 /* ProjectDetailsView.swift in Sources */,
+				2B4D414E2CEA391F00D86803 /* AddTaskViewModel.swift in Sources */,
 				2F6FF4A22BE0D3560059A805 /* MockData.swift in Sources */,
 				2FEDD2232BE4D939005B7D5F /* ProjectStore.swift in Sources */,
 				2F1242FD2BDFC42C0091FDA1 /* Project.swift in Sources */,
