@@ -21,23 +21,21 @@ projects: [Project]
  */
 
 final class HomeScreenViewModel: ObservableObject {
-    
-
-    class HomeScreenViewModel: ObservableObject {
-
+        // MARK: - Private
+    @Published private var projects: [Project]
         // MARK: - Outputs
 
         @Published var searchText: String = ""
         @Published var showAddProjectView: Bool = false
-        @Published var projects: [Project] = []
+        var filterProjects: [Project] = []
 
         let titleText = "EPCollaboratif"
         let homeText = "Accueil"
 
         // MARK: - Init
 
-        init() {
-
+    init(projects:[Project]) {
+        self.projects = projects
         }
 
         // MARK: - Inputs
@@ -51,4 +49,4 @@ final class HomeScreenViewModel: ObservableObject {
         }
     }
    
-}
+

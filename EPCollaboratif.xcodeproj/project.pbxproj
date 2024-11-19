@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B09A2212CEBA61300CDD67B /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B09A2202CEBA61300CDD67B /* HomeViewModelTests.swift */; };
+		2B09A2262CECA06600CDD67B /* AddTaskViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B09A2252CECA06600CDD67B /* AddTaskViewModelTests.swift */; };
 		2B4D41492CEA2FD100D86803 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4D41482CEA2FD100D86803 /* HomeViewModel.swift */; };
 		2B4D414E2CEA391F00D86803 /* AddTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4D414D2CEA391F00D86803 /* AddTaskViewModel.swift */; };
 		2F1242F32BDFA3CB0091FDA1 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1242F22BDFA3CB0091FDA1 /* HomeScreenView.swift */; };
@@ -20,7 +22,6 @@
 		2FFEDA8A2BDF96C200319E4A /* EPCollaboratifApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFEDA892BDF96C200319E4A /* EPCollaboratifApp.swift */; };
 		2FFEDA8E2BDF96C300319E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FFEDA8D2BDF96C300319E4A /* Assets.xcassets */; };
 		2FFEDA912BDF96C300319E4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FFEDA902BDF96C300319E4A /* Preview Assets.xcassets */; };
-		2FFEDA9B2BDF96C300319E4A /* EPCollaboratifTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFEDA9A2BDF96C300319E4A /* EPCollaboratifTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B09A2202CEBA61300CDD67B /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		2B09A2252CECA06600CDD67B /* AddTaskViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewModelTests.swift; sourceTree = "<group>"; };
 		2B4D41482CEA2FD100D86803 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		2B4D414D2CEA391F00D86803 /* AddTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewModel.swift; sourceTree = "<group>"; };
 		2F1242F22BDFA3CB0091FDA1 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
@@ -49,7 +52,6 @@
 		2FFEDA8D2BDF96C300319E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FFEDA902BDF96C300319E4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2FFEDA962BDF96C300319E4A /* EPCollaboratifTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPCollaboratifTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FFEDA9A2BDF96C300319E4A /* EPCollaboratifTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPCollaboratifTests.swift; sourceTree = "<group>"; };
 		2FFF11DC2BF4A82900E7C6C5 /* EPCollaboratif.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EPCollaboratif.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,10 +127,10 @@
 				2F6FF4A12BE0D3560059A805 /* MockData.swift */,
 				2FFEDA892BDF96C200319E4A /* EPCollaboratifApp.swift */,
 				2F6FF49F2BE0CFC40059A805 /* AddTaskView.swift */,
+				2B4D414D2CEA391F00D86803 /* AddTaskViewModel.swift */,
 				2FEDD2202BE4D8D2005B7D5F /* Task.swift */,
 				2FFEDA8D2BDF96C300319E4A /* Assets.xcassets */,
 				2FFEDA8F2BDF96C300319E4A /* Preview Content */,
-				2B4D414D2CEA391F00D86803 /* AddTaskViewModel.swift */,
 			);
 			path = EPCollaboratif;
 			sourceTree = "<group>";
@@ -145,7 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				2FFF11DC2BF4A82900E7C6C5 /* EPCollaboratif.xctestplan */,
-				2FFEDA9A2BDF96C300319E4A /* EPCollaboratifTests.swift */,
+				2B09A2202CEBA61300CDD67B /* HomeViewModelTests.swift */,
+				2B09A2252CECA06600CDD67B /* AddTaskViewModelTests.swift */,
 			);
 			path = EPCollaboratifTests;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 					};
 					2FFEDA952BDF96C300319E4A = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1610;
 						TestTargetID = 2FFEDA852BDF96C200319E4A;
 					};
 				};
@@ -268,7 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FFEDA9B2BDF96C300319E4A /* EPCollaboratifTests.swift in Sources */,
+				2B09A2212CEBA61300CDD67B /* HomeViewModelTests.swift in Sources */,
+				2B09A2262CECA06600CDD67B /* AddTaskViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,8 +468,8 @@
 		2FFEDAAE2BDF96C300319E4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -473,6 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.oc.EPCollaboratifTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPCollaboratif.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EPCollaboratif";
@@ -482,8 +488,8 @@
 		2FFEDAAF2BDF96C300319E4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
