@@ -1,7 +1,12 @@
 import Combine
 import SwiftUI
 
-class Project: ObservableObject {
+class Project: ObservableObject, Equatable {
+    
+    static func == (lhs: Project, rhs: Project) -> Bool {
+        lhs.id == rhs.id
+    }
+
     // MARK: - Public Properties
 
     let id: Int

@@ -10,6 +10,7 @@ struct HomeScreenView: View {
     @State private var searchText = ""
     @State private var showAddProjectView = false
     private var filteredProjects: [Project] {
+        
         if searchText.isEmpty {
             return projectStore.projects
         } else {
